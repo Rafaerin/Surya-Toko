@@ -5,147 +5,244 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surya Raharja Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <h1 class= "bg-yellow-600 text-black-600 text-left text-3xl pb-5 flex">Surya Raharja</h1>
-    <style>
-        body {
-            background-color: black;
-            background-image: url(./Foto/pexels-pixabay-459451.jpg);
-        }
-    </style>
-       
+    
 </head>
+<style>
+    .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.image {
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+}
+</style>
 <body>
-<header>
-<nav class="flex justify-center space-x-4 bg-red-400 mx-auto m-0">
-    <a href="#About" class="font-medium px-4 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">About</a>
-    <a href="#Produk" class="font-medium px-4 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">Produk</a>
-    <a href="#Material" class="font-medium px-4 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">Material</a>
-    <a href="#Contact" class="font-medium px-4 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">Contact</a>
-  </nav>
-</header>
-<!-- end of header -->
-<section id ="About">
-    <div class="container mx-auto bg-slate-600">
-    <p class= "text-center text-4xl bg-blue-400 rounded-2xl ">Tentang Kami</p>
-    <figure class="max-w-lg mx-auto  ">
-        <img class="h-auto max-w-full rounded-lg " src=".//Foto/Profil Toko.jpg" alt="image description">
-        <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-red-400"><h2 class="text-2xl">Mendirikan Toko Dan menjual produk yang berjalan di berbagai segmen sehingga konsumen dapat memilih apa yang di inginkan setiap konsumen<br>
-            <br>Establishing an MSME store and selling products across various segments so that consumers can choose what they want.<br>
-            <br> 成立一个中小微企业商店，销售涵盖各个领域的产品，以便消费者可以选择他们想要的东西</figcaption>
-      </figure>
-    </div>
-</section>
-
-
-<div class="container mx-auto bg-slate-500 m-5">
-
-<section id ="Produk">
-    <div class="bg-purple-800 py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-blue-500 mb-8 text-center text bg-green-300 rounded-2xl ">Produk Kami</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-gray-300 rounded-lg shadow-lg p-8">
-                    <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src=".//Foto/Not My Problem/3d0c602c-3636-4a97-824e-dabad3e32a25.jpeg" alt="Product">
-                        <div class="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <!-- <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button> -->
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mt-4">Not My Problem</h3>
-                    <p class="text-gray-600 text-sm mt-2">Bahan Teteron Cotton Mudah Dicuci dan Cepat Kering</p>
-                    <div class="flex items-center justify-between mt-4">
-                        <span class="text-gray-900 font-bold text-lg">Rp 12.500</span>
-                        <!-- <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button> -->
-                    </div>
+    <div class="#" class="gradient-background">
+        <!-- Title -->
+        <section id="title"class="gradient-background">
+       
+          <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./Foto//Profil Toko.jpg" class="d-block mx-lg-auto img-fluid" alt="App Demo" height="200" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Surya Raharja Shop</h1>
+                <p class="lead "><h2>Mendirikan Toko Dan menjual produk yang berjalan di berbagai segmen sehingga konsumen dapat memilih apa yang diinginkan setiap konsumen<br>
+                    <br>Establishing an MSME store and selling products across various segments so that consumers can choose what they want.<br>
+                    <br> 成立一个中小微企业商店，销售涵盖各个领域的产品，以便消费者可以选择他们想要的东西。
+        </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-apple mb-1" viewBox="0 0 16 16">
+      <path
+                      d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+      <path
+                      d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+      </svg>Download</button>
+                  <button type="button" class="btn btn-light btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+      <path
+                      d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+      </svg>
+      Download</button> -->
                 </div>
-                <div class="bg-gray-300 rounded-lg shadow-lg p-8">
-                    <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src=".//Foto/New York/b425ae1b-0ad4-48c2-902b-36db0ec844ba.jpeg" alt="Product">
-                        <div class="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <!-- <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button> -->
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mt-4">New York</h3>
-                    <p class="text-gray-600 text-sm mt-2">Bahan Teteron Cotton Mudah Dicuci dan Cepat Kering</p>
-                    <div class="flex items-center justify-between mt-4">
-                        <span class="text-gray-900 font-bold text-lg">Rp 12.500</span>
-                        <!-- <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button> -->
-                    </div>
-                </div>
-                <div class="bg-gray-300 rounded-lg shadow-lg p-8">
-                    <div class="relative overflow-hidden">
-                        <img class="object-cover w-full h-full" src=".//Foto/Exo/40606170-faca-4dac-9d07-0ae506d040c3.jpeg" alt="Product">
-                        <div class="absolute inset-0 bg-black opacity-40"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <!-- <button class="bg-white text-gray-900 py-2 px-6 rounded-full font-bold hover:bg-gray-300">View Product</button> -->
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mt-4">Exo</h3>
-                    <p class="text-gray-600 text-sm mt-2">Bahan Teteron Cotton Mudah Dicuci dan Cepat Kering</p>
-                    <div class="flex items-center justify-between mt-4">
-                        <span class="text-gray-900 font-bold text-lg">Rp 12.500</span>
-                        <!-- <button class="bg-gray-900 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800">Add to Cart</button> -->
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+        </section>
+        <!-- Features -->
+        <section class="gradient-background" id="features">
+          <div class="container gradient-background">
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
+                viewBox="0 0 16 16">
+      <path
+                  d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+      <path
+                  d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+      </svg>
+      
+              </div>
+              <div>
+                
+                <h3 class="fs-2 text-body-emphasis">Stok</h3>
+                <p>Selama Stok Tersedia Kami Tetap <br>Menjual Produk Tersebut
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+                  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+                  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+                  </svg>
+                  
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Bahan</h3>
+                <p>Untuk saat ini Tersedia Bahan <br> TC Teteron Cotton</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-arrow-through-heart"
+                viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+                  d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z" />
+      </svg>
+      
+              </div>
+              <div>
+                <h3 class="fs-2 text-body-emphasis">Jaminan</h3>
+                <p> Barang Dapat Dikembalikan Apabila <br>Ada Cacat Produksi
+      
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- Testimonial -->
+        <section id="testimonial">
+          <div class="p-5 text-center bg-body-tertiary gradient-background">
+         
+      
+          <div class="container ">
+            <div class="row">
+              <div class ="col-lg-3 col-sm-12">
+                <img src=".//Foto/New York/231053bf-952b-424e-b08c-3128d10b495d.jpeg"alt="New York" height="30">
+                <figcaption class = "text-3xl">New York</figcaption>
+              </div>
+      
+              <div class ="col-lg-3 col-sm-12">
+                <img src=".//Foto/Exo/40606170-faca-4dac-9d07-0ae506d040c3.jpeg" alt="Exo"height="30">
+                <figcaption class = "text-3xl">Exo</figcaption>
+              </div>
+      
+      
+              <div class ="col-lg-3 col-sm-12">
+                <img src=".//Foto/Not My Problem//3d0c602c-3636-4a97-824e-dabad3e32a25.jpeg" alt="Not My Problem"height="30">
+                <figcaption class = "text-3xl">Not My Problem</figcaption>
+              </div>
+      
+              <div class ="col-lg-3 col-sm-12">
+                <img src=".//Foto/Dino//dde9c71d-8941-4f34-a966-d3eb81fa0ebc.jpeg" alt="Dino"height="30">
+                <figcaption class = "text-3xl">Dino</figcaption>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <!-- <section id="footer" class ="gradient-background">
+          <div class="container">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 ">
+              <div class="col mb-3">
+               
+                <p class="text-body-secondary">© Tindog</p>
+              </div>
+          
+              <div class="col mb-3">
+          
+              </div>
+          
+              <div class="col mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+        </section>
+      
+      </div>   -->
+      <div class="p-5 text-center bg-body-tertiary gradient-background">
+        <div class="container">
+            <!-- <h1 class="text-body-emphasis">"Produk Kami"</h1> -->
+            <p class="col-lg-8 mx-auto lead text-5xl ">
+                Untuk Membeli Produk Kami Anda Dapat Menekan Tautan Dibawah ini
+              </p>
+            <div class="image">
+            <a href="https://id.shp.ee/zz52mZr" target="_blank" class="block">
+              <img src="./Foto/264px-Shopee_logo.svg.png" alt="Logo Shopee" width="200" class="transition-transform duration-300 hover:scale-110 grid grid-cols-5 pb-12">
+          </a>
+      </div>
+           
     
         </div>
-        <p class ="text-center font-medium text-4xl m-6 text-gray-300">Untuk Membeli Produk kami anda dapat mengklik tautan dibawah ini</p>
-<div class="p-4">
-        <a href="https://id.shp.ee/zz52mZr" target="_blank" class="block">
-            <img src="./Foto/264px-Shopee_logo.svg.png" alt="Logo Shopee" width="200" class="transition-transform duration-300 hover:scale-110">
-        </a>
     </div>
-    
-    </div>
-  
 
-    
-</section>
-
-</div>
-<div class="container mx-auto bg-slate-500 m-5">
-<section id ="Material">
-    <p class="text-center text-4xl">Tentang Material</p>
-<p class ="font-medium text-2xl bg-blue-200 font-serif">Teteron adalah sejenis serat sintetis yang sering digunakan dalam pembuatan kain. Kain yang terbuat dari campuran bahan teteron dan katun sering disebut sebagai "Teteron Cotton". Berikut adalah beberapa kelebihan dan kekurangan dari kain Teteron Cotton:
-<br><br>
-        Kekurangan:
-        <br><br>        
-        Kurang dalam Absorpsi: Salah satu kekurangan utama dari Teteron Cotton adalah bahwa serat teteron cenderung tidak memiliki daya serap yang baik dibandingkan dengan katun murni. Ini berarti kain mungkin tidak begitu efektif dalam menyerap keringat atau menjaga tubuh tetap kering, terutama dalam iklim yang panas atau saat berolahraga.
-        <br><br>
-        Tidak Begitu Bernapas: Kain Teteron Cotton mungkin juga kurang "bernafas" dibandingkan dengan kain katun murni. Ini dapat menyebabkan rasa tidak nyaman atau panas saat digunakan dalam cuaca panas.
-        <br><br>
-        Cenderung Cepat Mengkerut: Meskipun memiliki kemiripan dengan katun dalam hal kehalusan dan kelembutan, kain Teteron Cotton cenderung cepat mengkerut. Hal ini dapat membuat penampilan kain terlihat tidak rapi setelah beberapa kali penggunaan atau pencucian.
-        <br><br>
-        Kelebihan:
-        <br><br>
-        Tahan Luntur: Kain Teteron Cotton cenderung lebih tahan luntur dibandingkan dengan kain katun murni. Ini berarti warnanya mungkin akan tetap cerah dan tahan lama meskipun sering dicuci.
-        <br><br>
-        Mudah Dicuci dan Cepat Kering: Kain Teteron Cotton biasanya mudah dicuci dan cepat kering, sehingga memudahkan perawatan.
-        <br><br>
-        Tahan Terhadap Kerutan: Meskipun cenderung cepat mengkerut, kain Teteron Cotton lebih tahan terhadap kerutan dibandingkan dengan kain lain yang terbuat dari serat sintetis.
-        <br><br>
-        Kekuatan dan Daya Tahan: Serat teteron cenderung kuat dan tahan lama, sehingga kain Teteron Cotton bisa menjadi pilihan yang baik untuk pakaian atau produk tekstil yang membutuhkan kekuatan tambahan.
-        <br><br>
-        Pemilihan antara menggunakan kain Teteron Cotton atau kain lainnya tergantung pada preferensi pribadi Anda, kebutuhan penggunaan, dan kondisi penggunaan yang di inginkan. Jika Anda lebih memilih kain yang tahan luntur dan mudah perawatannya, tetapi tidak terlalu mempermasalahkan kekurangan dalam daya serap atau bernapas, maka kain Teteron Cotton bisa menjadi pilihan yang baik. Namun, jika Anda mengutamakan kenyamanan dan daya serap yang baik, Anda mungkin lebih memilih kain katun murni.
-        <br><br>
-        
-        </p>
-
-    </section>
-<section id ="Contact">
-    <div class="container mx-auto  bg-gray-400 py-12 grid grid-cols-1 grid-rows-4 ">
-        <div class="text-center text-4xl bg-indigo-400 font-serif rounded-b-full ...">Kontak Kami Dibawah Ini</div>
-        <div class="text-center text-4xl bg-indigo-400 font-serif rounded-b-full ...">Untuk Masukan Dan Saran</div>
-        <div class="flex items-center justify-center">
-            <a href="mailto:suryaraharja98321@gmail.com">
-            <div class="flex justify-center items-center">
-              <img src=".//Foto/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" alt="Gmail icon" class="w-12 h-auto ">
-              <figcaption class ="text-4xl m-5">Gmail Contact</figcaption>
-            </div>
-<section>
+    <div class="text-center text-4xl font-serif gradient-background">Untuk Masukan Dan Saran<br>pelanggan berhak memberikan masukan dan saran agar kami dapat meninjau kembali toko kami <br>melalui kontak dibawah ini</div>
+    <div class="flex items-center justify-center gradient-background ">
+        <a href="mailto:suryaraharja98321@gmail.com">
+        <div class="flex justify-center items-center">
+          <img src=".//Foto/gmail-new-2020-logo-32DBE11BB4-seeklogo.com.png" alt="Gmail icon" class="w-12 h-auto ">
+          <figcaption class ="text-4xl m-5">Gmail Contact</figcaption>
+        </div>
 </body>
 </html>
